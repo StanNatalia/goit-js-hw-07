@@ -8,4 +8,3 @@ nameInput.addEventListener("input", () => {
 })
 
 
-
