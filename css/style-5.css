@@ -1,0 +1,38 @@
+p {
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin: 0;
+margin-bottom: 16px;
+}
+
+button {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+background: #4e75ff;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+transition: background-color 0.3s, transform 0.3s;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c8cff;;
+}
+
+.widget {
+    display: flex;
+    flex-direction: column;
+}

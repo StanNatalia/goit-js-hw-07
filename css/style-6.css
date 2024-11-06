@@ -1,0 +1,69 @@
+#boxes {
+display: flex;
+flex-wrap: wrap;
+gap: 44px;
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+min-height: 134px;
+background: #f6f6fe;
+}
+
+input {
+border: 1px solid #808080;
+border-radius: 8px;
+padding: 8px 72px;
+width: 150px;
+height: 40px;
+transition: border-color 0.3s;
+}
+
+input:hover {
+border-color: #000000;
+}
+
+input:active {
+border-color: #808080;
+}
+
+button {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #fff;
+border-radius: 8px;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+border: none;
+}
+
+button[data-create] {
+background: #4e75ff;
+transition: background-color 0.3s, transform 0.3s;
+cursor: pointer;
+}
+
+button[data-create]:hover {
+    background-color: #6c8cff;;
+}
+
+button[data-destroy] {
+background: #ff4e4e;
+transition: background-color 0.3s, transform 0.3s;
+cursor: pointer;
+}
+
+button[data-destroy]:hover {
+    background-color: #ff7070;
+}
+
+#controls {
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+background: #f6f6fe;
+margin-bottom: 16px;
+}
